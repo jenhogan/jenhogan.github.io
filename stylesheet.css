@@ -1,0 +1,223 @@
+title {
+   font-family: 'Oswald', normal;
+    text-align: center;
+    
+}
+
+
+
+h2 {
+ font-family: 'Oswald', normal;
+}
+
+h3{
+ font-family: 'Oswald', normal;
+}
+h4{
+font-family: 'Oswald', normal;
+text-align: left;
+font-size: 24px;
+}
+ol {
+    list-style: upper-alpha;
+}
+
+
+a1{
+    text-align: center;
+}
+
+
+/* Bold and Underline list */
+  dt {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  dd {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+  }
+
+/* ========================================================*/
+
+pre { 
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Oswald';
+    text-align: left;
+}
+     
+
+
+section {
+    /* these are the properties of the section **/
+	float: left;  /* the whole section goes to the left            When you float things L and R, they need to have a specific width */               
+	width: 70%;
+	box-sizing: border-box;
+	padding: 10px;
+	border-right: 2px solid black;		
+}
+
+aside {
+	float: right;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 10px;
+    
+}
+section {
+	text-align: center;
+}
+
+
+
+section p {
+	margin: 10px;
+}
+
+section h3 {
+	margin: 5px;
+}
+
+
+strong{
+    font-weight: normal;
+    font-size: 2em;     
+}
+
+em {
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid darkblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+thead{
+    border: 1px solid darkblue;
+}
+
+
+
+caption{
+    caption-side: bottom;
+    text-align: center;
+    font-size: small;
+}
+    
+
+html { 
+  background: url(Siena.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    
+}
+nav ol, nav li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+     
+}
+
+nav li a{       /*button design */
+    display: inline-block;
+    width: 100px;
+    border: 100px green;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: ;
+    text-align: center;
+    border-radius: 10px;
+    background-color: whitesmoke; /*button color*/
+    color: darkblue;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 20px;
+    padding: 10px 7px;
+}
+nav li a:hover {
+    color: lightblue;
+    background-color: #444;
+
+}
+    
+.shadowy{
+ text-shadow: 10px 10p 10px black;   
+}
+
+div.page{
+margin: 20px auto;
+width: 800px;
+border-radius: 10px; 
+    
+    box-shadow: 10px 10px 10px #444
+        padding: 20px; 
+    
+}
+
+.main-header{
+    text-align: left;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.text-header{
+    font-family: 'Oswald', normal;
+    font-size:40px;
+    text-align: Center;
+    color: gold;
+    background-color:#0d2f0d;
+    border-radius: 10px;
+}
+
+.rect{
+    margin: 10px;
+    background-color:rgba(245, 245, 245, .85);
+
+    border-radius: 25px;
+
+}
+
+h1{
+	text-align: center;
+
+}
+
+.win  h2, .win ol{
+	
+	display: inline-block;
+	padding: 10px;
+    
+}
+.win li {
+	
+	display: block;
+}

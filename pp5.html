@@ -1,0 +1,53 @@
+<!--Past problems page that links to several pages that show past problems. Note that there is partial data available going back to 2000. Note that each year 6-7 problems were given, so there is a lot of content to share. You can design a page for each year that is available or a page for each problem. But the pages should be linked in a logical way. --> 
+
+<!DOCTYPE html> <!--type of document--> 
+<html lang = "en">
+    <head> <!--for things like the insides -->
+        <meta charset="utf-8">
+        <title>Past Problems</title>
+    </head>
+    <body> <!--This is what you actually see-->
+        <h2>SIENA COLLEGE</h2>
+        <h2>29th Annual High School Programming Contest</h2>
+        <h2>October 17, 2015</h2>
+        
+        <h4><b>Problem #6: Mountain Ranges</b></h4>
+       <!-- <p><u>Background Information: </u>Given a rectangular area (called a <i>map</i>) which contains regions of</p>
+        <p>Mountains (M) and valleys (V), a mountain range is a connected series of Mountainous areas which are adjacent to the     </p>
+        <p>  north, south, east or west.  Mountains ranges are not connection diagonal adjacencies.  Either an M or a V is found</p>
+        <p> at a location (x, y) on the map, where x is the row (starting at row 0) and y is the column (starting at column 0).</p> -->
+
+        
+        <p><u>Background Information:</u> Given a rectangular area <i>(called a map)</i> which contains regions of Mountains (M) and valleys (V), a mountain range is a connected series of Mountainous areas which are adjacent to the north, south, east or west.  Mountains ranges are not connection diagonal adjacencies.  Either an M or a V is found at a location (x, y) on the map, where x is the row (starting at row 0) and y is the column (starting at column 0). </p>
+        
+        <p>For Example, the following 5 x 8 map</p>
+        <pre>
+MVVVMVVV
+MVVVVMVV
+VVVMMVVV
+VVMMVVVV</pre>
+        
+        <p> contains 4 separate mountain ranges: {(0,0), (1,0)}, {(0, 4)}, {(4,2), (4,3), (3,3), (3,4), (2,4)} and {(1, 5)}.  The size of a mountain range is the defined as the number of mountains in the range.  In the above example, there are 4 mountain ranges, one of which has size 4, one of which has size 2, and the others having size 1.  Your job is to find the largest size among all mountain ranges on a given map. </p>
+        
+
+<pre><u>Programming Problem:</u>
+Input:          An integer r representing the number of rows; an integer c representing a 
+                number of columns; r lines of c characters (M’s and V’s). The values r and 
+                c will be at most 100.
+Output:	        The size of the largest mountain range. 
+
+
+
+Example 1:	Input:	8 8
+	                MVMVVVVM
+	                MVVMVMVM
+	                MVMMVVMV
+	                MVVVMVMV
+	                VVVMVMVM
+	                VMVMVVMM
+	                VMMVVMVM
+	                MVMMMMVM
+            Output:	8 
+</pre>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html> 
+<html lang = "en">
+    <head> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheet.css"> <!-- MEMORIZE THIS!!!!!!!!!!  you can use ../style.css or css/style.css    UNIX STYLE STILL WORKS--> 
+
+
+    </head>
+     <header class='main-header' role="banner">
+        <img src='siena-logo.png' alt="siena logo"
+            width="230" height="70"/>     
+        </header>
+    <nav>   
+    <body> 
+        
+        <h4><b>Problem #6: Mountain Ranges</b></h4>
+         <header class='rect' role="article">
+        
+        <p><u>Background Information:</u> Given a rectangular area <i>(called a map)</i> which contains regions of Mountains (M) and valleys (V), a mountain range is a connected series of Mountainous areas which are adjacent to the north, south, east or west.  Mountains ranges are not connection diagonal adjacencies.  Either an M or a V is found at a location (x, y) on the map, where x is the row (starting at row 0) and y is the column (starting at column 0). </p>
+        
+        <p>For Example, the following 5 x 8 map</p>
+        <pre>
+MVVVMVVV
+MVVVVMVV
+VVVMMVVV
+VVMMVVVV</pre>
+        
+        <p> contains 4 separate mountain ranges: {(0,0), (1,0)}, {(0, 4)}, {(4,2), (4,3), (3,3), (3,4), (2,4)} and {(1, 5)}.  The size of a mountain range is the defined as the number of mountains in the range.  In the above example, there are 4 mountain ranges, one of which has size 4, one of which has size 2, and the others having size 1.  Your job is to find the largest size among all mountain ranges on a given map. </p>
+        
+
+<pre>
+<u>
+<b>Programming Problem:</u></b>
+Input:          An integer r representing the number of rows; an integer c representing a 
+                    number of columns; r lines of c characters (M’s and V’s). The values r and 
+                    c will be at most 100.
+Output:	    The size of the largest mountain range. 
+
+
+
+Example 1:	Input:	8 8
+
+	                MVMVVVVM
+	                MVVMVMVM
+	                MVMMVVMV
+	                MVVVMVMV
+	                VVVMVMVM
+	                V<mark>M</mark>VMVVMM
+	                V<mark>MM</mark>VVMVM
+	                MV<mark>MMMM</mark>VM
+                    
+                        Output:	8 
+</pre>
+        </header>
+</body>
+    </nav>
+</html>
