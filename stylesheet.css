@@ -234,3 +234,64 @@ img{
     display: block;
     margin: 0 auto;
 }
+
+/* TIM'S STYLE SHEET ADDITIONS :D */
+
+h1{
+	text-align: center;
+
+}
+
+.win  h2, .win ol{
+	
+	display: inline-block;
+	padding: 10px;
+    
+}
+.win li {
+	
+	display: block;
+}
+
+.home ol, .home li {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+     
+}
+
+.home li a{       /*button design */
+    display: block;
+    width: 100px;
+    border: 100px green;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: ;
+    text-align: left;
+    border-radius: 10px;
+    background-color: whitesmoke; /*button color*/
+    color: darkblue;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 20px;
+    padding: 10px 7px;
+}
+.home li a:hover {
+    color: lightblue;
+    background-color: #444;
+
+}
+
+
+nav.home ol {
+    display: block;
+    width: 770px;
+    margin: auto;
+}
+
+nav.home li{width:150px;}
+
+.home ol, .home li {
+    display: inline-block;
+}
