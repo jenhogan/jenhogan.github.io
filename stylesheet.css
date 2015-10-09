@@ -9,8 +9,10 @@ h2 {
 
 h3{
  font-family: 'Oswald', normal;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
+    color: white;
+   background: linear-gradient(to right,transparent,#054005, transparent); /* Standard syntax */
 }
 h4{
 font-family: 'Oswald', normal;
