@@ -263,7 +263,7 @@ h1{
 .home li a{       /*button design */
     display: block;
     width: 100px;
-    border: 100px green;
+    height: 50px;
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 20px;
@@ -293,5 +293,6 @@ nav.home ol {
 nav.home li{width:150px;}
 
 .home ol, .home li {
-    display: inline-block;
+  display: inline-block;
+    vertical-align: bottom;
 }
