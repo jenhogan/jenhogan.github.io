@@ -296,3 +296,7 @@ nav.home li{width:150px;}
   display: inline-block;
     vertical-align: bottom;
 }
+
+.centerp{
+	text-align:center;
+}
