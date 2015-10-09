@@ -19,6 +19,13 @@ font-family: 'Oswald', normal;
 text-align: left;
 font-size: 24px;
 }
+
+h5{
+font-family: 'Oswald', normal;
+text-align:center;
+font-size: 24px;
+}
+
 ol {
     list-style: upper-alpha;
 }
