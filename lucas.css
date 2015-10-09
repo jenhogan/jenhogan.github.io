@@ -1,0 +1,59 @@
+h1.survey, h2.survey, h3.survey, h1.registration, h2.registration, h3.registration {
+    text-align: center;
+}
+
+form.button {
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+input.button {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+
+textarea.survey
+{
+    width: 90%;
+    border-radius: 5px;
+}
+
+input[type=radio], input[type=checkbox], input[type=text]{
+    margin-bottom: 15px;
+}
+
+input[type=text]{
+    font-size: 15px;
+    border-radius:5px;
+}
+
+input[type=checkbox]{
+    margin-left:40px;
+}
+
+#contestant-information{
+    margin-left: 40px;
+}
+
+h4.survey, h4.registration {
+    margin-left: 40px;
+}
+
+form.registration {
+    margin-left: 40px;
+}
+
+ul.registration, ol.registration {
+    list-style: none;
+}
+
+ol.survey {
+    list-style: decimal;
+}
